@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (tb_control) JobQueued: {'identifier': 'tb_control', 'dependencies': OrderedDict()}
+[0.000338] (tb_control) JobStarted: {'identifier': 'tb_control'}
+[0.099995] (-) TimerEvent: {}
+[0.200314] (-) TimerEvent: {}
+[0.300563] (-) TimerEvent: {}
+[0.352935] (tb_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/tb_control', 'build', '--build-base', '/home/cgcollins91/testWS/src/build/tb_control/build', 'install', '--record', '/home/cgcollins91/testWS/src/build/tb_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cgcollins91/testWS/src/tb_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'cgcollins91', 'SSH_AGENT_PID': '1946', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/cgcollins91', 'OLDPWD': '/home/cgcollins91/testWS', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1290', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/cgcollins91/testWS/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cgcollins91', 'JOURNAL_STREAM': '8:51301', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cgcollins91', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/galactic/share/turtlebot3_gazebo/models/:/opt/ros/galactic/share/turtlebot3_gazebo/models/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Moose-Compute-Linux:@/tmp/.ICE-unix/2222,unix/Moose-Compute-Linux:/tmp/.ICE-unix/2222', 'INVOCATION_ID': '3c559ca810c04b41b5563a7738e0c833', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6a36a1bf_aa45_4a2b_a8b2_4f07ad062597', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.1663', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cgcollins91/testWS/src/build/tb_control', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cgcollins91/testWS/src/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgcollins91/testWS/src/install/tb_control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.400659] (-) TimerEvent: {}
+[0.476871] (tb_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.477114] (tb_control) StdoutLine: {'line': b'writing ../build/tb_control/tb_control.egg-info/PKG-INFO\n'}
+[0.477215] (tb_control) StdoutLine: {'line': b'writing dependency_links to ../build/tb_control/tb_control.egg-info/dependency_links.txt\n'}
+[0.477304] (tb_control) StdoutLine: {'line': b'writing entry points to ../build/tb_control/tb_control.egg-info/entry_points.txt\n'}
+[0.477377] (tb_control) StdoutLine: {'line': b'writing requirements to ../build/tb_control/tb_control.egg-info/requires.txt\n'}
+[0.477443] (tb_control) StdoutLine: {'line': b'writing top-level names to ../build/tb_control/tb_control.egg-info/top_level.txt\n'}
+[0.493204] (tb_control) StdoutLine: {'line': b"reading manifest file '../build/tb_control/tb_control.egg-info/SOURCES.txt'\n"}
+[0.493623] (tb_control) StdoutLine: {'line': b"writing manifest file '../build/tb_control/tb_control.egg-info/SOURCES.txt'\n"}
+[0.493746] (tb_control) StdoutLine: {'line': b'running build\n'}
+[0.493847] (tb_control) StdoutLine: {'line': b'running build_py\n'}
+[0.493924] (tb_control) StdoutLine: {'line': b'copying tb_control/tb_openLoop.py -> /home/cgcollins91/testWS/src/build/tb_control/build/lib/tb_control\n'}
+[0.493980] (tb_control) StdoutLine: {'line': b'running install\n'}
+[0.494215] (tb_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.494673] (tb_control) StdoutLine: {'line': b'copying /home/cgcollins91/testWS/src/build/tb_control/build/lib/tb_control/tb_openLoop.py -> /home/cgcollins91/testWS/src/install/tb_control/lib/python3.8/site-packages/tb_control\n'}
+[0.494950] (tb_control) StdoutLine: {'line': b'byte-compiling /home/cgcollins91/testWS/src/install/tb_control/lib/python3.8/site-packages/tb_control/tb_openLoop.py to tb_openLoop.cpython-38.pyc\n'}
+[0.495665] (tb_control) StdoutLine: {'line': b'running install_data\n'}
+[0.495744] (tb_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.496495] (tb_control) StdoutLine: {'line': b"removing '/home/cgcollins91/testWS/src/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.496688] (tb_control) StdoutLine: {'line': b'Copying ../build/tb_control/tb_control.egg-info to /home/cgcollins91/testWS/src/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info\n'}
+[0.497141] (tb_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.500717] (-) TimerEvent: {}
+[0.505000] (tb_control) StdoutLine: {'line': b'Installing tb_openLoop script to /home/cgcollins91/testWS/src/install/tb_control/lib/tb_control\n'}
+[0.505159] (tb_control) StdoutLine: {'line': b"writing list of installed files to '/home/cgcollins91/testWS/src/build/tb_control/install.log'\n"}
+[0.515011] (tb_control) CommandEnded: {'returncode': 0}
+[0.523443] (tb_control) JobEnded: {'identifier': 'tb_control', 'rc': 0}
+[0.523920] (-) EventReactorShutdown: {}

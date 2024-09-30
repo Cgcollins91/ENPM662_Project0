@@ -1,0 +1,5 @@
+[console_scripts]
+pose_subscriber = tb_control.pose_subscriber:main
+tb_openLoop = tb_control.tb_openLoop:main
+tb_openLoop_1 = tb_control.tb_openLoop_1:main
+

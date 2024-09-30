@@ -1,0 +1,25 @@
+[0.348s] Invoking command in '/home/cgcollins91/testWS/src/tb_control': PYTHONPATH=/home/cgcollins91/testWS/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgcollins91/testWS/install/tb_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_control build --build-base /home/cgcollins91/testWS/build/tb_control/build install --record /home/cgcollins91/testWS/build/tb_control/install.log --single-version-externally-managed install_data
+[0.464s] running egg_info
+[0.464s] writing ../../build/tb_control/tb_control.egg-info/PKG-INFO
+[0.464s] writing dependency_links to ../../build/tb_control/tb_control.egg-info/dependency_links.txt
+[0.464s] writing entry points to ../../build/tb_control/tb_control.egg-info/entry_points.txt
+[0.464s] writing requirements to ../../build/tb_control/tb_control.egg-info/requires.txt
+[0.464s] writing top-level names to ../../build/tb_control/tb_control.egg-info/top_level.txt
+[0.480s] reading manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.480s] writing manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.480s] running build
+[0.480s] running build_py
+[0.480s] copying tb_control/tb_openLoop.py -> /home/cgcollins91/testWS/build/tb_control/build/lib/tb_control
+[0.481s] running install
+[0.481s] running install_lib
+[0.481s] copying /home/cgcollins91/testWS/build/tb_control/build/lib/tb_control/tb_openLoop.py -> /home/cgcollins91/testWS/install/tb_control/lib/python3.8/site-packages/tb_control
+[0.482s] byte-compiling /home/cgcollins91/testWS/install/tb_control/lib/python3.8/site-packages/tb_control/tb_openLoop.py to tb_openLoop.cpython-38.pyc
+[0.482s] running install_data
+[0.482s] running install_egg_info
+[0.483s] removing '/home/cgcollins91/testWS/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info' (and everything under it)
+[0.483s] Copying ../../build/tb_control/tb_control.egg-info to /home/cgcollins91/testWS/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info
+[0.484s] running install_scripts
+[0.491s] Installing pose_subscriber script to /home/cgcollins91/testWS/install/tb_control/lib/tb_control
+[0.491s] Installing tb_openLoop script to /home/cgcollins91/testWS/install/tb_control/lib/tb_control
+[0.492s] writing list of installed files to '/home/cgcollins91/testWS/build/tb_control/install.log'
+[0.501s] Invoked command in '/home/cgcollins91/testWS/src/tb_control' returned '0': PYTHONPATH=/home/cgcollins91/testWS/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cgcollins91/testWS/install/tb_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_control build --build-base /home/cgcollins91/testWS/build/tb_control/build install --record /home/cgcollins91/testWS/build/tb_control/install.log --single-version-externally-managed install_data
